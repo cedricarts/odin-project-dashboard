@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-color: #626262;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: white;
+    width: 75%;
+    padding: 50px;
+    border-radius: 25px;
+    right: 0;
+    
+    
+}
+
+input{
+    width: 250px;
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    background-color: #222222;
+}
+
+.top-header-half{
+    justify-content: space-between;
+}
+
+
+.projects-section .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.projects-section .grid-container div{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+}
+
+.projects-section div p{
+    text-align: left;
+}
+
+
+.side-nav-bar {
+    height: 100%;
+    color: white;
+    background-color: rgb(0, 136, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    left: 0;
+    top: 0;
+    position: fixed;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.721);
+    
+}
+
+.other{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.announcements, .trending{
+    background-color: white;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
